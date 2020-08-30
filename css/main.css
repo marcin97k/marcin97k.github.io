@@ -8,5 +8,15 @@ body {
 	background-color: #333;
 	font-family: 'Quicksand', sans-serif;
 	color: #fff;
+	padding: 50px;
+}
+
+h2 {
+	font-size-adjust: 30px;
 	font-weight: bold;
+}
+
+p {
+	font-weight: 300;
+	font-size: 20px;
 }
