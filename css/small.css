@@ -1,0 +1,38 @@
+/* NAV  */
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav-desktop li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-desktop li a {
+    padding: 30px;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.nav-desktop .disactive a {
+    color: #fff;
+}
+
+.nav-desktop .disactive a:hover {
+    background-color: #fff;
+    color: rgb(61, 59, 59);
+}
+
+.nav-desktop .active a {
+    background-color: #fff;
+    color: rgb(61, 59, 59);
+}
