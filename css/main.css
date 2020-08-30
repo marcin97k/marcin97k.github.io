@@ -65,11 +65,10 @@ nav {
 	color: #fff;
 }
 
-.nav-mobile .active {
+.nav-mobile .active a{
 	background-color: #fff;
 	color: rgb(61, 59, 59);
 }
-
 
 .nav-mobile button {
 	font-size: 30px;
