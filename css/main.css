@@ -65,7 +65,7 @@ nav {
 	color: #fff;
 }
 
-.nav-mobile .active a{
+.nav-mobile .active a {
 	background-color: #fff;
 	color: rgb(61, 59, 59);
 }
@@ -85,7 +85,66 @@ nav {
 
 
 /* HEADER  */
+.hero-bg {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(4, 50, 102, 0.75);
+}
+
+.header-img {
+	position: relative;
+	height: 150px;
+	background-image: url('../img/pexels-negative-space-97077.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-shadow: 3px 3px 5px black;
+}
+
+.header-text h1 {
+	margin-bottom: 5px;
+}
+
+.header-text span {
+	color: rgb(38, 25, 228);
+	text-transform: uppercase;
+}
+
+.header-text p {
+	font-size: 14px;
+}
+
 
 /* MAIN  */
 
 /* FOOTER  */
+footer .siteInfo {
+	position: absolute;
+	bottom: 0px;
+	height: 100px;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+footer .footerInfo {
+	position: absolute;
+	bottom: 0;
+	margin-left: calc(50% - 200px);
+	height: 40px;
+	width: 400px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: black;
+}
